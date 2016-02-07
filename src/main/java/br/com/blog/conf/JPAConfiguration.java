@@ -35,17 +35,7 @@ public class JPAConfiguration {
 	}
 
 
-	/*@Bean
-	public DataSource dataSource(){
-		DriverManagerDataSource dataSource =
-				new DriverManagerDataSource();
-		dataSource.setDriverClassName("org.postgresql.Driver");
-		dataSource.setUrl(
-				"jdbc:postgresql://ec2-107-20-242-191.compute-1.amazonaws.com:5432/d1a9ij8d7ipvoi");
-		dataSource.setUsername( "owtlxzwpxufatt" );
-		dataSource.setPassword( "RMiqlixwuTIF4U_1-CdCwpKYx7" );
-		return dataSource;
-	}*/
+	
 	
 	@Bean	   
 	   public DataSource dataSource(){
